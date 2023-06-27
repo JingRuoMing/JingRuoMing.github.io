@@ -25,12 +25,12 @@
 
   
 
-<link rel="canonical" href="https://jingruoming.github.io/2023/04/20/eBPF%E6%9E%B6%E6%9E%84/">
+<link rel="canonical" href="https://jingruoming.github.io/2023/06/27/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/">
 
 
 
   <title>
-eBPF架构 |
+渗透测试 |
 菜鸡的日常 = 笔记</title>
 <meta name="generator" content="Hexo 6.3.0"></head>
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -58,16 +58,16 @@ eBPF架构 |
         <div id="brand">
           <div class="pjax">
           
-  <h1 itemprop="name headline">eBPF架构
+  <h1 itemprop="name headline">渗透测试
   </h1>
   
 <div class="meta">
-  <span class="item" title="创建时间：2023-04-20 15:44:11">
+  <span class="item" title="创建时间：2023-06-27 14:25:12">
     <span class="icon">
       <i class="ic i-calendar"></i>
     </span>
     <span class="text">发表于</span>
-    <time itemprop="dateCreated datePublished" datetime="2023-04-20T15:44:11+08:00">2023-04-20</time>
+    <time itemprop="dateCreated datePublished" datetime="2023-06-27T14:25:12+08:00">2023-06-27</time>
   </span>
 </div>
 
@@ -100,12 +100,12 @@ eBPF架构 |
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://i0.wp.com/tva4.sinaimg.cn/large/6833939bly1giciryrr3rj20zk0m8nhk.jpg"></li>
-          <li class="item" data-background-image="https://i0.wp.com/tva4.sinaimg.cn/large/6833939bly1giclh0m9pdj20zk0m8hdt.jpg"></li>
           <li class="item" data-background-image="https://i0.wp.com/tva4.sinaimg.cn/large/6833939bly1giph47e9vtj20zk0m8x6l.jpg"></li>
-          <li class="item" data-background-image="https://i0.wp.com/tva4.sinaimg.cn/large/6833939bly1gicis3attqj20zk0m8k7l.jpg"></li>
-          <li class="item" data-background-image="https://i0.wp.com/tva4.sinaimg.cn/large/6833939bly1gipeyhsblkj20zk0m81kx.jpg"></li>
-          <li class="item" data-background-image="https://i0.wp.com/tva4.sinaimg.cn/large/6833939bly1gicitcxhpij20zk0m8hdt.jpg"></li>
+          <li class="item" data-background-image="https://i0.wp.com/tva4.sinaimg.cn/large/6833939bly1gipetlbztpj20zk0m84qp.jpg"></li>
+          <li class="item" data-background-image="https://i0.wp.com/tva4.sinaimg.cn/large/6833939bly1giclflwv2aj20zk0m84qp.jpg"></li>
+          <li class="item" data-background-image="https://i0.wp.com/tva4.sinaimg.cn/large/6833939bly1giclxfdlttj20zk0m8npd.jpg"></li>
+          <li class="item" data-background-image="https://i0.wp.com/tva4.sinaimg.cn/large/6833939bly1gipevgoki5j20zk0m84qp.jpg"></li>
+          <li class="item" data-background-image="https://i0.wp.com/tva4.sinaimg.cn/large/6833939bly1gipexj2jgzj20zk0m8b09.jpg"></li>
         </ul>
       </div>
     </header>
@@ -134,7 +134,7 @@ eBPF架构 |
 </div>
 
     <article itemscope itemtype="http://schema.org/Article" class="post block" lang="zh-CN">
-  <link itemprop="mainEntityOfPage" href="https://jingruoming.github.io/2023/04/20/eBPF%E6%9E%B6%E6%9E%84/">
+  <link itemprop="mainEntityOfPage" href="https://jingruoming.github.io/2023/06/27/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/">
 
   <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="image" content="/images/avatar.jpg">
@@ -150,7 +150,7 @@ eBPF架构 |
     
 
     <div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="8d0fdfbe92339cbeffd65d4d786b967e7cb0d9ff685b824828e29553f7f17f49">810701ac348edd0de6c61885754a6129963b398a721f78e2ebe9520e3b36137fabb5da8150b644648c5537c3b5b253cf5cca5c8cc56b5552d552f385f3a060226f8989c58ce0b3d921ed3c79d84e89ea27c784da15bc55735ef60bd40be31b84dd1e58b0d7b2da14d501f35bfd08e40823aa96c121f920d30ef88d22e038ea9a4cb007f0079621a0f1e8a6b453fb93972bab2e762ec4aea2d2c73cb8cf781ea8edde9f7b5acfc5ddce310c8341b70b90835c414bd0aedddea7d306647cea9452b0db7886548d046d5286217847fa99d23960a6126ccd52eeeedc0632a1d33226f90822ea96bea17a09ec42b8a65c33ddbec795b5829b15857199f9ffedb0d366a559ed7dbd0c283f199a0d6044a3e1eaea295bff9856cdc7e98c1281039bf9cb10816c1af5b503555636db75096e8085da195a0e707c251754a3d51bcd3007753a5cab2b2dfd1548a60e028cb966a7d9713a6c133474281b82da4a29bef17d3754b1aeb13b32c9b901e39d7cbe5d317ae1f528c7d610d49e2cd676c7a27cac8e3c9836b3cb318587f5991faaf479f593390d4badc6a89f1d6baea5fc5a911d0d4ca1009abbb08558f6d45503efc98ddb3332c00134691e10a590bb890330cd2d4829c33fd2d233ff84202544b0eb4d1a073f1a91a9b58529434a4afc6d625d1a148b0fe9f9c52786fff037694ca5bc8c47718f230e65da72c3686f57e19c63060597a61f93cb02461e44970a991a6c1fd1dd602b472138ea434e89ae70afb9078d05f6e78cf79c73e7438a32c3162e4e133a691b1e9c416db5238e1f78a3658ee14c5e6be18c730cbbfcc3ab3bf283bf9e53faeadb9e574f36a46db42d8ac7ae1d20103bb65963edb08f68d3b232cafdbb9949a4d6648d9e0839b6c912f3d02eef9ccc8647950f81097ac164095592c2c84a8cfc93e6aac43aaa3263949b0c1c1007346543ce392fe8c70e37e6e26dae142529ea9afb19deaf4eb728955e4b96885f02111c6d97e6fe82ee41f16d97a1e1e3f7dcc30500d832ac04e475eb9103dcacfad8727de7c1bef53ba677cfff78b3e5911567f8b66084d759e7a19601292ba006fba0e4b8a4894006fa81b01691ec22dc7613e469e238f5b03fb08831a2b2f6a59f1de55a58f8a88691d39e899143963f358aa63f979598d9ad7d41e9af45f36b8abacdc7f31ecd2c8707f35f62ed789c1b93e020630d5ca1ae2d6c59e37a848a2eb30c061b6d8fc1aa3b74b27c63a9267151f7dfebb9b935ac1bf3256f93d364043a46f82f058b570e1592a302c07a183541b58addf354c23ec5852a2ff97a783fd6c5c86ed691758eff6474a2da16a82ba8385d116d0e03dfb63223fbde97219da68703c367aa5d84a6fd3568d04a6c338eb0749065f8734845300d4fe848abc00b44011092334815f86ff906a79d1ae41c1febc89e818bbe58f1ed58200098d55848a382bdeba1f2415d3ac5acec3ff7d96a7b93b114ad7bfc12fdb0508ead5bf2efa529ad7c37dac542975f214fc11b39c0983ffb26ae0698b36ffb99ad4498e7899f4d62ee4f61e3bf1d993003da9915eb881dc210ca94aea21e8c17d1be20296275aad41fd7e951effb5d7c49657d885d79beed88f32e7545a3bc977f292696337fa844e23a12aac76d5543ba17a7bf64268961904e03708ccdcba9b80ac5d9a254a3b4e7c0d371c7886525127a95c93606a65bce1141dd7953a4c534dd1f44b1eb6571199cc62e6b67501a14ac2a2d921ed23b67491b1978aafd7bbcfcf4cf52ba33433ba2719d5e67a0c7aba02f3dea9bc4b5451921bda1b27a5dd61a84ede99abc386a996916ac8f261c5226689bd9880be0c16a6a42b3f0d616c15608131e08fb637fb580a4a4e827243cc21ed8504761e9161bdf6d6b07a7373ca516ffa808ed121fe41a6f5a91fc7598a23c4c510c3017e939d7a7cebef3c39a996ebef0d202b5dfba4ef1d044d79a7af650188e2718fed5d81f91f06092798963acc05f24b572cc2ec0d98e1c9b1baa438eeda7f7351a2fcb1b0be5428085f17561f37e50f9b07480b2c483f23e1a74dc3f552772840ba5d128a5c5215621b45ca20b23122b3b2f89159d57afb2c01d4fff28e1d43e98684c807f38d8f3b7c80fc6412c4b1af5162c25c8a602665af4f7204fb22f79d7f67e73ae5bf511b87c6b7113ea4e0f2ce4a3498b923419bb7743b8a73e90fbefa2b2a8b453a770af1bdb50be52cdfa6663138984ccd1e6e69c0407a97498ba00db9ac34b272e37f6bd7c997fbefabca531df440b160d1b7ddf122348f91232c19e59d4e9b40a72168fb0ab3a20c120463f117e14778b5d20c97645ac02ed1f7d1dfc906c0aee341f3d9526dd2d43daa0ef0fab022c02b78e19cce618b3dc62434cc3f45f250b78ff19c627973ff4040376ddbc8b70869ff682898b982a8cbc034bc0f0fec84c5a1eba25698ee71a2d59a01d8c6049fcbdad6eb7e0702098bf7b341bb9f244291a9fbef4cd76bef1b4e50b323fffea1587c3030442cb62d4011d948c6a81415bf57f7c02cca9fe6eaab85cc0ed39da69f8b631377ccea7e090c2fe97b3eb25ea09d7ede39f1d28fa02c839b15de14391303f4b4e947533d637d39ca6bf8694db3665f553c2a5c5522d34be7ffe36a8a550c6d45391e8bece0407476b3d91a5452762890546702cfb5491d36ffc6a4135eced820d682281a7f61720271a2f34f3d178c0726a7e71637494383ebfbbb93ac6783f8f864b6180bcf7c53064623b26241411236a1f15e19520931d5804cb623d2b3885c5252e31cff01d1fa7b90471c7d2230fd99d777b8b7c67e7e35ad88169952adfe19a4def34175d5a5f29aac05b46356c89e8d37215a057fc651f7bf0c647e2e3b655274792e1f514e395110f99b224f5fccb30de66c92a479dc79cbe3aaaf35097c76ba2d2af104fce177aebb345b0c449e280f663add9f4e090d91e0fd138cc1523254fbe05081a4a0740f8bd052b2ed2a1bd2881997a3d87397a7a2da64acb41ec34e68d4919584bb2095f71d52e09194dd1385ba78945ee1a137a18435588c885188abeeb73c3c8a2ab719946d106667c208f62fd744834ef51b7aeb171b5001fca98e1c4c43c000ff9ee9af3091770ea94a1921ae2856efe4f209623e79db5fa0d27c345ecfee8e37c1419e1bd5f00dd9d916e3de5fcb088eb0d4fa4a512e7fe0ef07323891c240948c26259ad47430ec424a198b5fbbafd6a3b05b0e50b712e5bca08c2e6f056ccc0ed90440a4c9d56bf8d83146eb2cf7354ae3d10c5fddce9ebedc989605f98a19c6c6b442c5911a590fe4c66c12f38ddb38a34c82c5260ab99ece3be10770180cadd59189b8ef76ea0a89e17d75fbd521c7dda5decd980ff85ddc1214bec8a69fd57e04f6f0cb1d4819f72103b33b5220320dd1477f289d92d4fe7f543fcf35e0cff5735f194bd3e0f35a1513f3632668eac404424725b97720fe3fb15c590325c08c796b21604d3b8563aaaba47d082757f1423ea93ac89b6b2df12f11f3628db1c2d257c60d9b620f093e80fdd63b7f55daa549b5ee8d9258b4e37a7b3ce68f8196841deff1930990a72f909c36340515ae6066db4bdf25d214fc50ee71306a7504ad7571d8d3f76a5902c01390eb56d50d442a208dbb8906c821070116093929cfb3a302ff5ee4b230c4662e159982e2f592c240bdf13b28eb611932b2f5e6c2ce5c33b9f23ffca4827843639588ca0d585b1dc3a16ac0acfa39bd724e8f438fe9df80979b584597dcdff87debc8ff3ac53ed1574dd402f7da1f13f139b32d3081baec9a80ba19a4e059c72b2358823cc3f2384a7c8b49f3b86f47f6fd14a55266210ee48c01d8dd4bdd0b7977aca2b859f66ff3cb424e748729f22363c6cca89639959c0c4fdd439c7c505b0a03cf4e15fbce3c43ea4ea30ed93c5aa1a5271a31d3fe7dfab82b7a87309126c88d252111c5522232a59c02cb6a303668ad6994ab90bb32b2acdbee8b528c8466008037673d67b7443b5da573dd74f167521000629e3da9bc7375e298deb44c4c868e584c09093618585e1d533aa1e1cfef633d5eb8f8af0844e2c02176bd31831cb2198d7ee2bbbdf3b85a5f2e05fa55b81815d2c11d97ebeb4760d37e3522e7b27a1076a6145207779ed630132e99e6fd4cf31c3e6b3d782f5c4ab38fdee63a3b284568c4a6f9357ad275f24b9b3718d47447cfc97aa1c1f52411a5f5b21c7ae70c21f4c528be0f9cb9f66e1d23b45cff131d0fd</script>
+  <script id="hbeData" type="hbeData" data-hmacdigest="73d87c99cda0dd18aa2b2b582f5662caa9bcedf43fabda52468c2c29e63b97dd">810701ac348edd0de6c61885754a6129999bc2c4936dcfef08b88693acc0e87759079b5c05d7aed4a7ecb455fa56e59031bb8209d4fbaa295603f8e6ebd76008b174151984ee9973e69e7818ee37f634a7cee0ccfb0d95da320966494794e9709bed811c00102ed417432bf835e0a77f937373f1ea904bce727000ce44d9a5abed17c4cf1ec9d677f64bbb8e556260fa0fa89d9d32b818c049bd2027d3a3614834d96a14694a949ec5c1f4cfe4630ad9a8f2d23ed5d6928073a1b50005243ddec0a103c04e72235ffac87aa858e00385cc8b40ea4ab901fe37e7490b18bb88826bb4a5a63315b476f34230c18f9c784015be5665ac02f9b2f1a80b2b95ca33ea36a55b0156b629af3308120780d5fca46a274d7b7f4acb326d2600d82f4d88a52a99240174124d5b726e7cda4cc307bae573992dfd3749bbcb23152d68c117f2f8c6e5f1b4996675d2cba0a9ce0cfe50457527f967ca9853f7a03dbc2e90dfd82824f38d9d124b376f48bd2928912f84e2f63db8203e22f72d71b8ddafbebcde7014471b51980f1e57a23ea9c649e80d8ca3532a98f453b893596d143d28f100c3773367050392a7e0ec28204980e6056a1d141438c4dc1cd22ec2a5c96715e8c42f8e6bff1c212b9c35bf1c1a08824933b282479db41c1ecac43d710077eeadd9176ff6c3483944989c9a0792889e56f1cf927ed865739cb1debaf6e5038829f55c0b07e245b4453ee52a38697aa9ccf3bad6c8f034acaf5cf9106fc99c6995c9939146ace403e1e123b16585f296c5e388b63a0c2a7f130d703b73a925638a7875fb59486e5dbe84ee580d26029a13c21269cc4040083fbcc07e4ea3d3bf1bb4b0677868943f33571fa2f331d6b773b00be1c11ebd7f9d5f57a41fad14af26efa54610b262d47fc817bdd6806b39c681ffcfc990450a0e837d689cd7b05f89022caeb70c19e4698e9fd42197b930c4874830149b10294f2b8bd9048d55723af7218a512275af1334839a4b87f7bc9d6c20d8fc86a75ceeb294571dced508969ade259ee20a41793ea505bbc855a77d79f5bd26647f68ebfa23b601f7dc0f62d20362eeaf5ce0c96203718f1f3fe25d68c98534c904e4df767eefe0689b9468ca7428413364dd7203a91dfd516ce10aa3bca821ca8e5de1ca12632e79bff7ed717e69a62cc7fab00e3e86a4c8134c7bd84e4832b2b6c50400116712fa28ab64</script>
   <div class="hbe hbe-content">
     <div class="hbe hbe-input hbe-input-default">
       <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
@@ -171,7 +171,7 @@ eBPF架构 |
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">更新于</span>
-    <time title="修改时间：2023-05-18 15:50:00" itemprop="dateModified" datetime="2023-05-18T15:50:00+08:00">2023-05-18</time>
+    <time title="修改时间：2023-06-27 14:27:20" itemprop="dateModified" datetime="2023-06-27T14:27:20+08:00">2023-06-27</time>
   </span>
 </div>
 
@@ -207,7 +207,7 @@ eBPF架构 |
   </li>
   <li class="link">
     <strong>本文链接：</strong>
-    <a href="https://jingruoming.github.io/2023/04/20/eBPF%E6%9E%B6%E6%9E%84/" title="eBPF架构">https://jingruoming.github.io/2023/04/20/eBPF架构/</a>
+    <a href="https://jingruoming.github.io/2023/06/27/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/" title="渗透测试">https://jingruoming.github.io/2023/06/27/渗透测试/</a>
   </li>
   <li class="license">
     <strong>版权声明： </strong>本站所有文章除特别声明外，均采用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> 许可协议。转载请注明出处！
@@ -224,14 +224,22 @@ eBPF架构 |
 
 <div class="post-nav">
     <div class="item left">
+      
+
+  <a href="/2023/06/05/%E9%80%9A%E8%BE%BEOA%E7%B3%BB%E7%BB%9F%E5%AD%98%E5%9C%A8-11-9%E7%89%88%E6%9C%AC%E5%AD%98%E5%9C%A8%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%8B%E8%BD%BD%E6%BC%8F%E6%B4%9E/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;i0.wp.com&#x2F;tva4.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gicitspjpbj20zk0m81ky.jpg" title="通达OA系统存在 &lt;&#x3D;11.9版本存在数据库下载漏洞">
+  <span class="type">上一篇</span>
+  <span class="category"><i class="ic i-flag"></i> </span>
+  <h3>通达OA系统存在 <=11.9版本存在数据库下载漏洞</h3>
+  </a>
+
     </div>
     <div class="item right">
       
 
-  <a href="/2023/05/19/eBPF%E9%A1%B9%E7%9B%AE%E9%98%85%E8%AF%BB-bcc-libbpf-tools/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;i0.wp.com&#x2F;tva4.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gipetlbztpj20zk0m84qp.jpg" title="eBPF项目阅读--bcc&#x2F;libbpf-tools">
+  <a href="/20123/03/30/%E4%BB%80%E4%B9%88%E6%98%AF%20eBPF/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;i0.wp.com&#x2F;tva4.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1giclg5ms2rj20zk0m8u0x.jpg" title="什么是ebpf">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> </span>
-  <h3>eBPF项目阅读--bcc/libbpf-tools</h3>
+  <h3>什么是ebpf</h3>
   </a>
 
     </div>
@@ -289,10 +297,12 @@ eBPF架构 |
 
   <ul id="quick">
     <li class="prev pjax">
+        <a href="/2023/06/05/%E9%80%9A%E8%BE%BEOA%E7%B3%BB%E7%BB%9F%E5%AD%98%E5%9C%A8-11-9%E7%89%88%E6%9C%AC%E5%AD%98%E5%9C%A8%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%8B%E8%BD%BD%E6%BC%8F%E6%B4%9E/" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a>
     </li>
     <li class="up"><i class="ic i-arrow-up"></i></li>
     <li class="down"><i class="ic i-arrow-down"></i></li>
     <li class="next pjax">
+        <a href="/20123/03/30/%E4%BB%80%E4%B9%88%E6%98%AF%20eBPF/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a>
     </li>
     <li class="percent"></li>
   </ul>
@@ -310,33 +320,6 @@ eBPF架构 |
 <div class="rpost pjax">
   <h2>随机文章</h2>
   <ul>
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/2023/06/27/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/" title="渗透测试">渗透测试</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/20123/03/30/%E4%BB%80%E4%B9%88%E6%98%AF%20eBPF/" title="什么是ebpf">什么是ebpf</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/2023/05/19/eBPF%E9%A1%B9%E7%9B%AE%E9%98%85%E8%AF%BB-bcc-libbpf-tools/" title="eBPF项目阅读--bcc&#x2F;libbpf-tools">eBPF项目阅读--bcc/libbpf-tools</a></span>
-  </li>
-
       
   <li class="item">
     
@@ -361,7 +344,34 @@ eBPF架构 |
 <div class="breadcrumb">
 </div>
 
+    <span><a href="/2023/06/27/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/" title="渗透测试">渗透测试</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
     <span><a href="/2023/06/05/%E9%80%9A%E8%BE%BEOA%E7%B3%BB%E7%BB%9F%E5%AD%98%E5%9C%A8-11-9%E7%89%88%E6%9C%AC%E5%AD%98%E5%9C%A8%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%8B%E8%BD%BD%E6%BC%8F%E6%B4%9E/" title="通达OA系统存在 &lt;&#x3D;11.9版本存在数据库下载漏洞">通达OA系统存在 <=11.9版本存在数据库下载漏洞</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2023/05/19/eBPF%E9%A1%B9%E7%9B%AE%E9%98%85%E8%AF%BB-bcc-libbpf-tools/" title="eBPF项目阅读--bcc&#x2F;libbpf-tools">eBPF项目阅读--bcc/libbpf-tools</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/20123/03/30/%E4%BB%80%E4%B9%88%E6%98%AF%20eBPF/" title="什么是ebpf">什么是ebpf</a></span>
   </li>
 
   </ul>
@@ -392,7 +402,7 @@ eBPF架构 |
   </div>
 <script data-config type="text/javascript">
   var LOCAL = {
-    path: '2023/04/20/eBPF架构/',
+    path: '2023/06/27/渗透测试/',
     favicon: {
       show: "（●´3｀●）やれやれだぜ",
       hide: "(´Д｀)大変だ！"
